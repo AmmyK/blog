@@ -12,8 +12,8 @@ export default function Hero() {
             <div className="hero-author">
                 <img src="https://api.adorable.io/avatars/30/image.png" className="hero-author-image" alt="avatar"></img>
                 <p className="hero-author-text">
-                    Written by amamamam.<br />
-                    Front Engineer at amamamam.Inc. Love Swift, Javascript.
+                    Written by amam.<br />
+                    Love Swift, SwiftUI.
                 </p>
             </div>
         </div>
