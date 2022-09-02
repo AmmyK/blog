@@ -14,7 +14,10 @@ module.exports = {
     description: "Gatsbyで作成されたWebサイト",
     author: "amamamam"
   },
-  plugins: [`gatsby-plugin-image`,
+  plugins: [
+    {
+      resolve: `gatsby-plugin-image`
+    },
     {
       resolve: `gatsby-source-contentful`,
       options: {
@@ -25,11 +28,12 @@ module.exports = {
     {
       resolve: `gatsby-transformer-remark`,
       options: {
-        commonmark: true,
+        //commonmark: true,
         footnotes: true,
-        pedantic: true,
+        //pedantic: true,
         gfm: true,
         plugins:[],
+
       },
     },
   ],
